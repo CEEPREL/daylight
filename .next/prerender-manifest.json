@@ -1,0 +1,388 @@
+{
+  "version": 4,
+  "routes": {
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "renderingMode": "STATIC",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/search": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/search",
+      "dataRoute": "/search.rsc",
+      "prefetchDataRoute": "/search.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/archive": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/archive.rsc",
+      "prefetchDataRoute": "/f/archive.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/drafts": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/drafts.rsc",
+      "prefetchDataRoute": "/f/drafts.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/inbox": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/inbox.rsc",
+      "prefetchDataRoute": "/f/inbox.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/sent": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/sent.rsc",
+      "prefetchDataRoute": "/f/sent.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/starred": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/starred.rsc",
+      "prefetchDataRoute": "/f/starred.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/trash": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "initialRevalidateSeconds": 900,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/f/[name]",
+      "dataRoute": "/f/trash.rsc",
+      "prefetchDataRoute": "/f/trash.prefetch.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/f/[name]": {
+      "experimentalPPR": true,
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "routeRegex": "^/f/([^/]+?)(?:/)?$",
+      "dataRoute": "/f/[name].rsc",
+      "fallback": "/f/[name]",
+      "fallbackRevalidate": 900,
+      "fallbackExpire": 31536000,
+      "fallbackRootParams": [],
+      "fallbackSourceRoute": "/f/[name]",
+      "dataRouteRegex": "^/f/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": "/f/[name].prefetch.rsc",
+      "prefetchDataRouteRegex": "^/f/([^/]+?)\\.prefetch\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/[name]/new": {
+      "experimentalPPR": true,
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "routeRegex": "^/f/([^/]+?)/new(?:/)?$",
+      "dataRoute": "/f/[name]/new.rsc",
+      "fallback": "/f/[name]/new",
+      "fallbackRevalidate": 900,
+      "fallbackExpire": 31536000,
+      "fallbackRootParams": [],
+      "fallbackSourceRoute": "/f/[name]/new",
+      "dataRouteRegex": "^/f/([^/]+?)/new\\.rsc$",
+      "prefetchDataRoute": "/f/[name]/new.prefetch.rsc",
+      "prefetchDataRouteRegex": "^/f/([^/]+?)/new\\.prefetch\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/f/[name]/[id]": {
+      "experimentalPPR": true,
+      "renderingMode": "PARTIALLY_STATIC",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview"
+        }
+      ],
+      "routeRegex": "^/f/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/f/[name]/[id].rsc",
+      "fallback": "/f/[name]/[id]",
+      "fallbackRevalidate": 900,
+      "fallbackExpire": 31536000,
+      "fallbackRootParams": [],
+      "fallbackSourceRoute": "/f/[name]/[id]",
+      "dataRouteRegex": "^/f/([^/]+?)/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": "/f/[name]/[id].prefetch.rsc",
+      "prefetchDataRouteRegex": "^/f/([^/]+?)/([^/]+?)\\.prefetch\\.rsc$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "861db21424f45456876bfc36cbec8917",
+    "previewModeSigningKey": "64a2c5052caa8c197500c6c558cb685f5ba37c3d7a7cd45f4b905689a564e449",
+    "previewModeEncryptionKey": "643395d82fa7d9e3d51f50edf37082d5ec79963423bcfaea2e4aaee2defdfeed"
+  }
+}

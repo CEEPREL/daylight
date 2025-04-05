@@ -1,0 +1,8 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/f/[name]/[id]/page": "/f/[name]/[id]",
+  "/f/[name]/new/page": "/f/[name]/new",
+  "/search/page": "/search",
+  "/f/[name]/page": "/f/[name]"
+}
